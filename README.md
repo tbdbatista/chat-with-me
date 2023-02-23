@@ -1,3 +1,7 @@
+# Chat With Me
+
+## Disclaimer
+
 This repository was imported from other repository that I own. This is why this project has few commits.
 
 This project was created as part of iOS & Swift - The Complete iOS App Development Bootcamp, by Dr. Angela Yu in Udemy. 
