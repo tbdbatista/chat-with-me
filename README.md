@@ -4,7 +4,7 @@
 
 After logging into the app, you can leave a message for the developer: Thiago Batista. But remember that all messages are saved in firebase and are not encrypted.
 
-This project was created as part of iOS & Swift - The Complete iOS App Development Bootcamp, by Dr. Angela Yu in Udemy. 
+This project was created as part of iOS & Swift - The Complete iOS App Development Bootcamp, by Dr. Angela Yu hosted on udemy platform. 
 
 Certification can be verified here: https://www.udemy.com/certificate/UC-c96c25ef-b230-448b-9232-fcc98dc002d8/
 
