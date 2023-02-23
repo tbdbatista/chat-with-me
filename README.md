@@ -5,6 +5,7 @@
 This repository was imported from other repository that I own. This is why this project has few commits.
 
 This project was created as part of iOS & Swift - The Complete iOS App Development Bootcamp, by Dr. Angela Yu in Udemy. 
+
 Certification can be verified here: https://www.udemy.com/certificate/UC-c96c25ef-b230-448b-9232-fcc98dc002d8/
 
 ## What did I learn?
