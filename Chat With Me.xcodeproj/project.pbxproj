@@ -15,8 +15,8 @@
 		DF68D82927FDD4C200251F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF68D82727FDD4C200251F02 /* LaunchScreen.storyboard */; };
 		DF68D83627FDD5A700251F02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68D83527FDD5A700251F02 /* HomeViewController.swift */; };
 		DF9E02DE27FF6824002096DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF9E02DD27FF6824002096DC /* GoogleService-Info.plist */; };
-		DFA353A929A93C200083F555 /* SecurityApi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA353A829A93C200083F555 /* SecurityApi.xcframework */; };
-		DFA353AA29A93C200083F555 /* SecurityApi.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFA353A829A93C200083F555 /* SecurityApi.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DFA353AC29A93E130083F555 /* SecurityApi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA353AB29A93E130083F555 /* SecurityApi.xcframework */; };
+		DFA353AD29A93E130083F555 /* SecurityApi.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFA353AB29A93E130083F555 /* SecurityApi.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DFAF0F0C2804E40200A2B469 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DFAF0F0B2804E40200A2B469 /* IQKeyboardManagerSwift */; };
 		DFCE613727FDF689002A1E67 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE613627FDF689002A1E67 /* RegisterViewController.swift */; };
 		DFCE613A27FDF6B7002A1E67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE613927FDF6B7002A1E67 /* LoginViewController.swift */; };
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DFA353AA29A93C200083F555 /* SecurityApi.xcframework in Embed Frameworks */,
+				DFA353AD29A93E130083F555 /* SecurityApi.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +54,7 @@
 		DF68D82A27FDD4C200251F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF68D83527FDD5A700251F02 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DF9E02DD27FF6824002096DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DFA353A829A93C200083F555 /* SecurityApi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SecurityApi.xcframework; path = ../../Desktop/SecurityApi.xcframework; sourceTree = "<group>"; };
+		DFA353AB29A93E130083F555 /* SecurityApi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SecurityApi.xcframework; path = "Chat With Me/Framework/SecurityApi.xcframework"; sourceTree = "<group>"; };
 		DFCE613627FDF689002A1E67 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DFCE613927FDF6B7002A1E67 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DFCE613C27FDFE4C002A1E67 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 			files = (
 				93F7B92190A30BBACCD3617D /* Pods_Chat_With_Me.framework in Frameworks */,
 				DFAF0F0C2804E40200A2B469 /* IQKeyboardManagerSwift in Frameworks */,
-				DFA353A929A93C200083F555 /* SecurityApi.xcframework in Frameworks */,
+				DFA353AC29A93E130083F555 /* SecurityApi.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		4A55C1EA038DBA2BD488CBC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DFA353A829A93C200083F555 /* SecurityApi.xcframework */,
+				DFA353AB29A93E130083F555 /* SecurityApi.xcframework */,
 				0E2AA0C44C8CACC7623FB87E /* Pods_Chat_With_Me.framework */,
 			);
 			name = Frameworks;

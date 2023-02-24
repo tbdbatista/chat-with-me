@@ -1,0 +1,11 @@
+framework module SecurityApi {
+  umbrella header "SecurityApi.h"
+
+  export *
+  module * { export * }
+}
+
+module SecurityApi.Swift {
+    header "SecurityApi-Swift.h"
+    requires objc
+}
