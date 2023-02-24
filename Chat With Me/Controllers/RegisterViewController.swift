@@ -14,12 +14,7 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var textFieldEmail: UITextField!
     @IBOutlet weak var textFieldPassword: UITextField!
     @IBOutlet weak var labelMain: UILabel!
-    
-    //MARK: - Variables and Constants
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -45,16 +40,4 @@ class RegisterViewController: UIViewController {
             }
         }
     }
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

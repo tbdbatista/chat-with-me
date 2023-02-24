@@ -15,7 +15,7 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var textFieldMessage: UITextField!
     
     //MARK: - Contants
-    let db = Firestore.firestore()
+    let dataBase = Firestore.firestore()
     
     //MARK: - Variables
     var messages: [Message] = []
@@ -44,7 +44,7 @@ class ChatViewController: UIViewController {
     //MARK: - Model functions
     func retrieveMessages(){
         
-        db.collection(K.FStore.collectionName).order(by: K.FStore.dateField).addSnapshotListener
+        dataBase.collection(K.FStore.collectionName).order(by: K.FStore.dateField).addSnapshotListener
         { (querySnapshot, error) in
             if let error = error {
                 print("There was an issue retrieving data from Firestore, \(error)")
@@ -74,7 +74,7 @@ class ChatViewController: UIViewController {
         
         if let messageBody = textFieldMessage.text, let messageSender = Auth.auth().currentUser?.email {
             
-            db.collection(K.FStore.collectionName).addDocument(data: [
+            dataBase.collection(K.FStore.collectionName).addDocument(data: [
                                                                 K.FStore.senderField: messageSender,
                                                                 K.FStore.bodyField: messageBody,
                                                                 K.FStore.dateField: Date().timeIntervalSince1970
