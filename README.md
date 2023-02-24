@@ -11,7 +11,9 @@ Certification can be verified here: https://www.udemy.com/certificate/UC-c96c25e
 
 This repository was imported from other repository that I own. This is why this project has few commits.
 
-Updated 24 Feb, 2023 - Create and Import my own Security SDK to handle with api keys used for google services
+Updated 24 Feb, 2023 - Create and Import my own Security SDK to handle with api keys used for google services.
+
+Currently, connecting to Firebase only works when using the simulator, due to write restrictions when using the physical device.
 
 ## What did I learn?
 
