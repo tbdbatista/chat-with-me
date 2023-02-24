@@ -15,6 +15,8 @@
 		DF68D82927FDD4C200251F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF68D82727FDD4C200251F02 /* LaunchScreen.storyboard */; };
 		DF68D83627FDD5A700251F02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68D83527FDD5A700251F02 /* HomeViewController.swift */; };
 		DF9E02DE27FF6824002096DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF9E02DD27FF6824002096DC /* GoogleService-Info.plist */; };
+		DFA353A929A93C200083F555 /* SecurityApi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA353A829A93C200083F555 /* SecurityApi.xcframework */; };
+		DFA353AA29A93C200083F555 /* SecurityApi.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFA353A829A93C200083F555 /* SecurityApi.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DFAF0F0C2804E40200A2B469 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DFAF0F0B2804E40200A2B469 /* IQKeyboardManagerSwift */; };
 		DFCE613727FDF689002A1E67 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE613627FDF689002A1E67 /* RegisterViewController.swift */; };
 		DFCE613A27FDF6B7002A1E67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE613927FDF6B7002A1E67 /* LoginViewController.swift */; };
@@ -24,6 +26,20 @@
 		DFFC2F172800AE35000A188F /* MessageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFC2F152800AE35000A188F /* MessageCellTableViewCell.swift */; };
 		DFFC2F182800AE35000A188F /* MessageCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFC2F162800AE35000A188F /* MessageCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFA353A729A936AB0083F555 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DFA353AA29A93C200083F555 /* SecurityApi.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0E2AA0C44C8CACC7623FB87E /* Pods_Chat_With_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_With_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +54,7 @@
 		DF68D82A27FDD4C200251F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF68D83527FDD5A700251F02 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DF9E02DD27FF6824002096DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFA353A829A93C200083F555 /* SecurityApi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SecurityApi.xcframework; path = ../../Desktop/SecurityApi.xcframework; sourceTree = "<group>"; };
 		DFCE613627FDF689002A1E67 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DFCE613927FDF6B7002A1E67 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DFCE613C27FDFE4C002A1E67 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +71,7 @@
 			files = (
 				93F7B92190A30BBACCD3617D /* Pods_Chat_With_Me.framework in Frameworks */,
 				DFAF0F0C2804E40200A2B469 /* IQKeyboardManagerSwift in Frameworks */,
+				DFA353A929A93C200083F555 /* SecurityApi.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 		4A55C1EA038DBA2BD488CBC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFA353A829A93C200083F555 /* SecurityApi.xcframework */,
 				0E2AA0C44C8CACC7623FB87E /* Pods_Chat_With_Me.framework */,
 			);
 			name = Frameworks;
@@ -153,6 +172,7 @@
 				DF68D81627FDD4BE00251F02 /* Frameworks */,
 				DF68D81727FDD4BE00251F02 /* Resources */,
 				04CCF1B69E99B0CC0379E3CC /* [CP] Embed Pods Frameworks */,
+				DFA353A729A936AB0083F555 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,7 +447,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gft.Chat-With-Me";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbdbatista.Chat-With-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,7 +467,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gft.Chat-With-Me";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbdbatista.Chat-With-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
