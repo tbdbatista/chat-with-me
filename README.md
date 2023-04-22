@@ -1,4 +1,10 @@
-# Chat With Me
+# Chat with Me iOS App
+
+Chat with Me is an iOS application built in Swift that allows users to chat with each other in real-time. The app uses Firebase for authentication and Firestore for data storage. Cocoapods was used as a dependency manager for Firebase libraries.
+
+## Features
+User authentication via Firebase Auth
+Real-time messaging using Firebase Firestore
 
 ## Disclaimer
 
@@ -28,3 +34,7 @@ Currently, connecting to Firebase only works when using the simulator, due to wr
 * Learn about Swift loops and create animations using loops.
 * Learn about the App Lifecycle and how to use viewWillAppear or viewWillDisappear.
 * How to create direct Segues for navigation.
+
+
+
+
